@@ -1,1 +1,3 @@
-# example-projects
+# Project description:
+- The project is comprised of two main parts. Firstly, there is the 'AIlib' folder I wrote as an undergrad. I was interested in how AI autodiff libraries might work internally. Since I enjoy functional programming a lot, I decided to write it from scratch in scala, which comes with serious performance issues due to execution purely on cpu. However, it shows how scala macros could be used to implement efficient compile time computation tree creation.
+- The second part in the 'learning' folder contains reproductions of the to me most interesting parts of a list of work I enjoyed reading. It mainly contains learning rules such as (direct-) feedback alignment, surrogate gradients for SNNs, model-agnostic meta-learning, actor-critic, etc. as well as network models such as variational autoencoders.
